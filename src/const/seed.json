@@ -1,0 +1,1332 @@
+[
+  {
+    "car_review": [
+      {
+        "id": "f719d3ce-f0f2-4ed8-b601-f7f887550bd1",
+        "created_at": "2023-08-04T02:10:52.033Z",
+        "updated_at": "2023-08-03T19:55:45.662Z",
+        "condition": 0.5043316113296896,
+        "year": false,
+        "advisor": "John Smith"
+      },
+      {
+        "id": "27f9cb91-92bb-4db5-a1fd-671d675c0780",
+        "created_at": "2023-08-03T13:31:03.690Z",
+        "updated_at": "2023-08-03T18:44:21.759Z",
+        "condition": 0.01610577036626637,
+        "year": false,
+        "advisor": "Jane Doe"
+      },
+      {
+        "id": "e5bd8504-c5f1-49a8-b240-e2f853ff2cd1",
+        "created_at": "2023-08-03T21:12:46.578Z",
+        "updated_at": "2023-08-03T14:03:14.025Z",
+        "condition": 0.174768139841035,
+        "year": false,
+        "advisor": "Michael Brown"
+      },
+      {
+        "id": "53eefc76-a099-4468-8117-820c0a773a35",
+        "created_at": "2023-08-03T10:07:10.255Z",
+        "updated_at": "2023-08-03T20:34:38.453Z",
+        "condition": 0.7406361438333988,
+        "year": true,
+        "advisor": "Sarah Jones"
+      },
+      {
+        "id": "9c1e231d-26f1-4e2c-b765-652979fb48fc",
+        "created_at": "2023-08-03T10:36:59.019Z",
+        "updated_at": "2023-08-03T17:21:32.163Z",
+        "condition": 0.5981868600938469,
+        "year": false,
+        "advisor": "David Wilson"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "d25a858b-38ff-4bd6-89ec-d0b9a6ade938",
+        "created_at": "2023-08-04T03:09:15.748Z",
+        "updated_at": "2023-08-03T21:58:35.273Z",
+        "parking": "Level 1",
+        "note": "Please park carefully",
+        "feedback": "Great parking facility",
+        "amount": 47076
+      },
+      {
+        "id": "11eb604f-ea09-48d8-b0d1-aae4818dea78",
+        "created_at": "2023-08-04T00:39:59.867Z",
+        "updated_at": "2023-08-03T20:33:46.329Z",
+        "parking": "Basement",
+        "note": "No parking on weekends",
+        "feedback": "Need more parking spaces",
+        "amount": 49616
+      },
+      {
+        "id": "f6b7de77-887a-4cc2-9820-d3f24e2c31b3",
+        "created_at": "2023-08-04T02:07:24.718Z",
+        "updated_at": "2023-08-03T09:59:07.193Z",
+        "parking": "Roof",
+        "note": "Park only in designated spots",
+        "feedback": "Clean and well-maintained",
+        "amount": 83293
+      },
+      {
+        "id": "227d7b3c-40af-468c-a8af-ec5b305225d7",
+        "created_at": "2023-08-03T09:44:12.059Z",
+        "updated_at": "2023-08-03T14:43:31.772Z",
+        "parking": "Visitor Area",
+        "note": "Parking fee required",
+        "feedback": "Difficult to find parking",
+        "amount": 34822
+      },
+      {
+        "id": "276888ad-4dae-4d1b-80ab-97cb525151a6",
+        "created_at": "2023-08-03T23:29:36.107Z",
+        "updated_at": "2023-08-03T16:42:39.840Z",
+        "parking": "Reserved Zone",
+        "note": "Park at your own risk",
+        "feedback": "Excellent security measures",
+        "amount": 37499
+      }
+    ],
+    "booking": [
+      {
+        "id": "a35cdd84-8571-4378-98dd-9534a461cfff",
+        "date": "2023-08-03T14:05:50.043Z",
+        "time": "2023-08-03T20:02:05.668Z",
+        "created_at": "2023-08-03T15:40:56.169Z",
+        "updated_at": "2023-08-03T09:35:12.442Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32e682e2-479e-42fb-babd-c4e85592b857",
+        "date": "2023-08-03T23:23:34.636Z",
+        "time": "2023-08-03T13:11:07.122Z",
+        "created_at": "2023-08-04T01:37:38.551Z",
+        "updated_at": "2023-08-04T04:17:31.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "709195a2-99b2-4af7-aecc-771ab965aec4",
+        "date": "2023-08-03T13:26:48.278Z",
+        "time": "2023-08-03T23:56:57.599Z",
+        "created_at": "2023-08-03T11:06:00.090Z",
+        "updated_at": "2023-08-03T07:31:32.735Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d31ec621-71bf-4af2-b28f-94cd8dfa193d",
+        "date": "2023-08-03T22:55:09.331Z",
+        "time": "2023-08-03T23:48:38.325Z",
+        "created_at": "2023-08-04T03:54:00.411Z",
+        "updated_at": "2023-08-03T11:06:30.787Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ba4caf7-5956-4cb8-95fa-118ee21b0a77",
+        "date": "2023-08-04T04:32:33.799Z",
+        "time": "2023-08-04T00:59:56.642Z",
+        "created_at": "2023-08-03T16:46:43.813Z",
+        "updated_at": "2023-08-03T06:39:52.257Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "43d576af-efcf-47ad-9ff0-32fed9f33106",
+        "created_at": "2023-08-03T14:38:25.615Z",
+        "updated_at": "2023-08-03T23:14:34.404Z",
+        "condition": 0.47337522474117577,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "f63b6dde-4740-4a58-b4af-5b34e6868296",
+        "created_at": "2023-08-03T15:57:09.269Z",
+        "updated_at": "2023-08-04T04:29:43.181Z",
+        "condition": 0.9871954505797476,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "d78d8191-9986-49ec-9429-a92d0a1ab509",
+        "created_at": "2023-08-03T08:52:13.897Z",
+        "updated_at": "2023-08-03T11:24:08.105Z",
+        "condition": 0.43583071883767843,
+        "year": false,
+        "advisor": "Michael"
+      },
+      {
+        "id": "465fde25-d0ae-40b1-b63e-a5d68cbfe10f",
+        "created_at": "2023-08-03T08:22:56.420Z",
+        "updated_at": "2023-08-03T18:47:32.891Z",
+        "condition": 0.051980771124362946,
+        "year": true,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "27700fb7-843e-4fd5-ad68-f7efa6e3d58b",
+        "created_at": "2023-08-03T21:38:32.618Z",
+        "updated_at": "2023-08-04T03:43:44.778Z",
+        "condition": 0.267106112325564,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "af0588cd-037e-4e27-ba93-c68a57426082",
+        "created_at": "2023-08-03T20:57:47.283Z",
+        "updated_at": "2023-08-03T07:46:37.706Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking available",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 23187
+      },
+      {
+        "id": "1e659c8e-7ab9-4e16-b9fc-fc40e026f377",
+        "created_at": "2023-08-03T15:05:35.556Z",
+        "updated_at": "2023-08-03T12:33:59.319Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces",
+        "feedback": "Insufficient parking spaces",
+        "amount": 40715
+      },
+      {
+        "id": "7763af8a-ca98-45a1-b09f-c7fa5874ac62",
+        "created_at": "2023-08-03T20:30:38.044Z",
+        "updated_at": "2023-08-03T23:51:41.969Z",
+        "parking": "Street Parking C",
+        "note": "Free parking for customers",
+        "feedback": "Difficult to find parking spots",
+        "amount": 87611
+      },
+      {
+        "id": "c880203d-fdc7-4ff9-8a0c-b3182521855d",
+        "created_at": "2023-08-03T09:03:35.431Z",
+        "updated_at": "2023-08-03T16:32:51.250Z",
+        "parking": "Underground Parking D",
+        "note": "Parking fee required",
+        "feedback": "Excellent parking service",
+        "amount": 66341
+      },
+      {
+        "id": "e3865a93-7555-495b-89c2-899acde01b60",
+        "created_at": "2023-08-03T10:36:02.926Z",
+        "updated_at": "2023-08-03T13:09:36.956Z",
+        "parking": "Open Parking E",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking lot needs improvement",
+        "amount": 26026
+      }
+    ],
+    "booking": [
+      {
+        "id": "97de1464-9483-4f56-a361-2abdf874d7fc",
+        "date": "2023-08-03T06:18:39.727Z",
+        "time": "2023-08-03T10:14:59.723Z",
+        "created_at": "2023-08-04T02:14:29.227Z",
+        "updated_at": "2023-08-03T19:49:47.478Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a12089e-70a8-4dc9-84a5-0ec533e399a5",
+        "date": "2023-08-03T09:10:41.474Z",
+        "time": "2023-08-03T08:12:42.321Z",
+        "created_at": "2023-08-03T06:42:50.627Z",
+        "updated_at": "2023-08-03T17:00:54.048Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91207cfb-3163-4d79-90a1-a016e0cafd1c",
+        "date": "2023-08-03T15:48:18.611Z",
+        "time": "2023-08-03T13:46:28.399Z",
+        "created_at": "2023-08-03T11:54:51.860Z",
+        "updated_at": "2023-08-03T17:35:37.254Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9af1843-edb2-40c9-8a1f-67444ef5d989",
+        "date": "2023-08-03T11:15:54.242Z",
+        "time": "2023-08-03T18:55:54.608Z",
+        "created_at": "2023-08-03T09:58:58.426Z",
+        "updated_at": "2023-08-03T16:59:57.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bd957f4-8778-4e46-bc97-4d07853e98be",
+        "date": "2023-08-03T19:07:51.487Z",
+        "time": "2023-08-04T03:09:29.415Z",
+        "created_at": "2023-08-03T12:06:54.860Z",
+        "updated_at": "2023-08-03T18:30:22.450Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "a3ccd035-571c-46eb-a210-48e6ec812b4f",
+        "created_at": "2023-08-03T13:16:36.157Z",
+        "updated_at": "2023-08-04T04:34:36.783Z",
+        "condition": 0.8205569011624902,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "38a10d20-37a6-4cf9-88ce-5a3fbf2142d5",
+        "created_at": "2023-08-03T08:12:55.477Z",
+        "updated_at": "2023-08-03T08:25:07.551Z",
+        "condition": 0.8996668423060328,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "ba994fd2-4396-4484-89dd-c1c4f481ca3f",
+        "created_at": "2023-08-03T16:57:45.254Z",
+        "updated_at": "2023-08-04T02:49:43.538Z",
+        "condition": 0.5656568629201502,
+        "year": false,
+        "advisor": "Michael"
+      },
+      {
+        "id": "3c0044d9-cd3e-4f1c-bffd-648cb0e5ffbc",
+        "created_at": "2023-08-03T13:23:04.382Z",
+        "updated_at": "2023-08-03T10:39:55.176Z",
+        "condition": 0.6523315771482885,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "dac20094-0a6c-4eb4-9a7b-e02d59a192fe",
+        "created_at": "2023-08-03T11:49:22.117Z",
+        "updated_at": "2023-08-03T13:29:47.944Z",
+        "condition": 0.2052699497435242,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "d751769d-0879-40bf-a474-d4b6612b7338",
+        "created_at": "2023-08-03T08:15:03.431Z",
+        "updated_at": "2023-08-03T17:17:09.604Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking available",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 18115
+      },
+      {
+        "id": "7b2c295f-5f7c-4d2f-9dc2-dc14105944c2",
+        "created_at": "2023-08-03T17:50:30.618Z",
+        "updated_at": "2023-08-03T08:17:22.519Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces",
+        "feedback": "Insufficient parking spaces",
+        "amount": 44895
+      },
+      {
+        "id": "c57849e6-2f5b-47db-870e-52ffd64d39b7",
+        "created_at": "2023-08-03T12:36:26.151Z",
+        "updated_at": "2023-08-03T17:47:12.721Z",
+        "parking": "Street Parking C",
+        "note": "Free parking for customers",
+        "feedback": "Difficult to find parking spots",
+        "amount": 39527
+      },
+      {
+        "id": "10d8d5cf-690e-404d-9517-84a0ce5f49c4",
+        "created_at": "2023-08-03T16:23:45.625Z",
+        "updated_at": "2023-08-03T20:48:32.612Z",
+        "parking": "Underground Parking D",
+        "note": "Parking fee required",
+        "feedback": "Excellent parking service",
+        "amount": 20274
+      },
+      {
+        "id": "bdd5fe12-8625-4ed4-ae69-a91008ac6dd9",
+        "created_at": "2023-08-04T02:03:56.613Z",
+        "updated_at": "2023-08-03T14:14:29.094Z",
+        "parking": "Open Parking E",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking lot needs improvement",
+        "amount": 81732
+      }
+    ],
+    "booking": [
+      {
+        "id": "9eb31e6a-bad3-464a-96ba-f202b6ae6787",
+        "date": "2023-08-03T09:35:14.333Z",
+        "time": "2023-08-03T18:30:47.266Z",
+        "created_at": "2023-08-03T18:19:53.012Z",
+        "updated_at": "2023-08-04T04:30:42.860Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4fbfff4-5846-46e4-b94d-26474d49df2b",
+        "date": "2023-08-04T03:10:11.571Z",
+        "time": "2023-08-03T23:46:16.579Z",
+        "created_at": "2023-08-04T03:06:29.298Z",
+        "updated_at": "2023-08-03T17:52:19.523Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4db9ac3-681e-49ed-9c46-678372afd124",
+        "date": "2023-08-04T00:36:15.764Z",
+        "time": "2023-08-03T09:00:59.379Z",
+        "created_at": "2023-08-03T22:41:44.067Z",
+        "updated_at": "2023-08-03T07:25:16.123Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee7b1dc7-bcbf-4e1c-b954-919707a06dae",
+        "date": "2023-08-04T01:13:26.807Z",
+        "time": "2023-08-04T04:30:16.797Z",
+        "created_at": "2023-08-04T03:50:45.674Z",
+        "updated_at": "2023-08-03T20:34:02.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a9086ea-2dbd-4a04-876d-cba842a9fc56",
+        "date": "2023-08-03T04:44:52.156Z",
+        "time": "2023-08-03T23:02:33.792Z",
+        "created_at": "2023-08-03T05:04:14.043Z",
+        "updated_at": "2023-08-04T00:43:51.406Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "6bc28245-95cc-42cc-ac19-9192e83ebc14",
+        "created_at": "2023-08-03T10:43:42.985Z",
+        "updated_at": "2023-08-03T05:22:38.587Z",
+        "condition": 0.15103580127470195,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "8384a4e2-3380-4bf7-ace6-74ff35aeda9a",
+        "created_at": "2023-08-03T10:11:44.323Z",
+        "updated_at": "2023-08-03T16:38:43.445Z",
+        "condition": 0.5599599769338965,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "725272b9-7ec3-45c0-abc1-6394982c544f",
+        "created_at": "2023-08-03T12:43:45.719Z",
+        "updated_at": "2023-08-03T10:57:44.469Z",
+        "condition": 0.22779185138642788,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "be4abb53-76f9-4c45-88a9-090e84c4776b",
+        "created_at": "2023-08-03T18:01:57.970Z",
+        "updated_at": "2023-08-03T05:28:49.163Z",
+        "condition": 0.9766013671178371,
+        "year": true,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "e95e9a0b-82a5-42a6-a545-6dfd6e9484e8",
+        "created_at": "2023-08-03T09:32:25.508Z",
+        "updated_at": "2023-08-03T13:58:38.522Z",
+        "condition": 0.07425298099406064,
+        "year": true,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "b8439c30-8e3f-4e40-aeb2-8e3c8d3ed30f",
+        "created_at": "2023-08-03T16:27:19.102Z",
+        "updated_at": "2023-08-04T02:15:23.465Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking available",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 4146
+      },
+      {
+        "id": "76248f7b-7b0b-44eb-9dfb-c9d846d1f2a6",
+        "created_at": "2023-08-03T06:10:57.008Z",
+        "updated_at": "2023-08-03T23:57:10.405Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces",
+        "feedback": "Insufficient parking spaces",
+        "amount": 25492
+      },
+      {
+        "id": "d9210ee6-abd4-49b8-9735-3976cdf037c8",
+        "created_at": "2023-08-03T20:03:39.780Z",
+        "updated_at": "2023-08-04T03:09:34.193Z",
+        "parking": "Street Parking C",
+        "note": "Free parking for customers",
+        "feedback": "Difficult to find parking spots",
+        "amount": 99387
+      },
+      {
+        "id": "f82a0848-8f06-4b92-aebe-6a68fd6b6b66",
+        "created_at": "2023-08-03T06:00:36.745Z",
+        "updated_at": "2023-08-03T14:15:49.650Z",
+        "parking": "Underground Parking D",
+        "note": "Parking fee required",
+        "feedback": "Excellent parking service",
+        "amount": 49601
+      },
+      {
+        "id": "24858a2a-f86f-4478-bbf7-1c19cc20d5d2",
+        "created_at": "2023-08-04T03:21:47.462Z",
+        "updated_at": "2023-08-04T00:32:53.447Z",
+        "parking": "Open Parking E",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking lot needs improvement",
+        "amount": 96169
+      }
+    ],
+    "booking": [
+      {
+        "id": "834cddae-73d9-4a43-9c53-1c9afb57870f",
+        "date": "2023-08-03T11:41:00.761Z",
+        "time": "2023-08-03T22:03:01.339Z",
+        "created_at": "2023-08-04T00:26:08.531Z",
+        "updated_at": "2023-08-03T13:17:01.959Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f91c14d-a7e3-409a-8117-c0d1bedb649e",
+        "date": "2023-08-03T15:36:59.127Z",
+        "time": "2023-08-03T11:19:13.269Z",
+        "created_at": "2023-08-03T16:04:40.448Z",
+        "updated_at": "2023-08-03T22:00:47.868Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3c9384a-5225-439b-ac7a-e22aeb551798",
+        "date": "2023-08-03T16:22:01.322Z",
+        "time": "2023-08-03T13:02:26.117Z",
+        "created_at": "2023-08-04T00:19:32.578Z",
+        "updated_at": "2023-08-03T05:04:21.535Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be792b14-9c5a-4ad6-b7d4-fb7177e6db9b",
+        "date": "2023-08-03T17:53:53.931Z",
+        "time": "2023-08-03T20:39:06.418Z",
+        "created_at": "2023-08-04T00:18:04.347Z",
+        "updated_at": "2023-08-03T14:47:45.518Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab372c0e-4197-4cb4-99ab-57924ff7e0ca",
+        "date": "2023-08-03T06:19:12.454Z",
+        "time": "2023-08-04T01:05:06.950Z",
+        "created_at": "2023-08-04T03:32:42.586Z",
+        "updated_at": "2023-08-03T12:54:47.383Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "04f95fe8-8e00-49c2-a076-358971697ef2",
+        "created_at": "2023-08-03T16:56:08.159Z",
+        "updated_at": "2023-08-03T23:47:01.083Z",
+        "condition": 0.6400112246628851,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "0eddd1bc-ed5c-41b3-96f5-f55d817b4c7b",
+        "created_at": "2023-08-03T21:26:52.949Z",
+        "updated_at": "2023-08-03T07:43:31.556Z",
+        "condition": 0.5969328386709094,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "3caff024-cf55-41a3-bfd5-885b56c7cfb3",
+        "created_at": "2023-08-04T01:03:05.479Z",
+        "updated_at": "2023-08-03T16:21:29.529Z",
+        "condition": 0.9773682933300734,
+        "year": false,
+        "advisor": "Michael"
+      },
+      {
+        "id": "2b425676-52cb-4056-b69c-ccc3522b2924",
+        "created_at": "2023-08-04T00:35:23.179Z",
+        "updated_at": "2023-08-03T23:04:37.641Z",
+        "condition": 0.7894973126240075,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "fd31d1c9-86a4-4690-8840-f7567ff5190c",
+        "created_at": "2023-08-03T17:28:13.186Z",
+        "updated_at": "2023-08-03T05:35:03.832Z",
+        "condition": 0.724227919941768,
+        "year": true,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "8e810c32-2a9a-4994-a5f4-58d4b6d980be",
+        "created_at": "2023-08-03T20:14:07.712Z",
+        "updated_at": "2023-08-03T23:45:23.747Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking available",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 25401
+      },
+      {
+        "id": "369f5cda-ecea-485e-b3af-10b21f504a46",
+        "created_at": "2023-08-03T13:30:56.222Z",
+        "updated_at": "2023-08-03T13:39:38.162Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces",
+        "feedback": "Insufficient parking spaces",
+        "amount": 38434
+      },
+      {
+        "id": "2b235738-ab79-476d-b6a9-a8f2549cc5e4",
+        "created_at": "2023-08-03T21:49:20.842Z",
+        "updated_at": "2023-08-03T13:59:10.967Z",
+        "parking": "Street Parking C",
+        "note": "Free parking for customers",
+        "feedback": "Difficult to find parking spots",
+        "amount": 45783
+      },
+      {
+        "id": "c4c0134c-33f3-4580-bfff-b051b403db39",
+        "created_at": "2023-08-03T11:32:12.650Z",
+        "updated_at": "2023-08-04T04:20:58.668Z",
+        "parking": "Underground Parking D",
+        "note": "Parking fee required",
+        "feedback": "Excellent parking service",
+        "amount": 51216
+      },
+      {
+        "id": "9dbb2741-0ae3-40f2-83b8-078cdb592da7",
+        "created_at": "2023-08-04T04:12:07.247Z",
+        "updated_at": "2023-08-04T02:39:36.603Z",
+        "parking": "Open Parking E",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking lot needs improvement",
+        "amount": 35892
+      }
+    ],
+    "booking": [
+      {
+        "id": "18803d55-91b0-4d1e-9d4b-b5eca8541d50",
+        "date": "2023-08-03T22:02:02.157Z",
+        "time": "2023-08-03T15:42:02.913Z",
+        "created_at": "2023-08-04T02:17:26.882Z",
+        "updated_at": "2023-08-03T15:57:27.807Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10352954-03db-4206-90e7-d544791e3560",
+        "date": "2023-08-03T18:41:18.796Z",
+        "time": "2023-08-03T11:21:12.617Z",
+        "created_at": "2023-08-03T23:48:11.758Z",
+        "updated_at": "2023-08-04T02:39:28.732Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3886370a-b185-487e-8497-f114a54c7f90",
+        "date": "2023-08-03T11:29:58.417Z",
+        "time": "2023-08-03T22:05:28.699Z",
+        "created_at": "2023-08-04T02:06:51.010Z",
+        "updated_at": "2023-08-03T12:19:50.637Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2402da6-20a1-4864-a955-49e3eb9c8107",
+        "date": "2023-08-04T03:10:22.913Z",
+        "time": "2023-08-03T09:16:47.366Z",
+        "created_at": "2023-08-03T17:55:46.172Z",
+        "updated_at": "2023-08-03T12:17:59.873Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14fc7e96-7093-42d1-93cf-f148698fcd7d",
+        "date": "2023-08-03T07:18:43.389Z",
+        "time": "2023-08-03T14:50:15.139Z",
+        "created_at": "2023-08-03T23:32:39.348Z",
+        "updated_at": "2023-08-03T05:45:16.618Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "be7bd8b5-2a31-41b0-aa6c-6f62cda4736b",
+        "created_at": "2023-08-03T07:16:45.071Z",
+        "updated_at": "2023-08-03T08:42:36.053Z",
+        "condition": 0.23124287161044776,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "3a940fe7-8286-4b74-b643-c9d1db0bf7fc",
+        "created_at": "2023-08-03T18:03:53.845Z",
+        "updated_at": "2023-08-03T06:41:16.442Z",
+        "condition": 0.5598091890569776,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "5433eccd-5833-4386-bfaf-84b5c092e47d",
+        "created_at": "2023-08-03T11:53:53.283Z",
+        "updated_at": "2023-08-03T21:49:35.677Z",
+        "condition": 0.7687406416516751,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "e25288f9-521a-4eea-8186-fdc43b9a8e41",
+        "created_at": "2023-08-03T10:15:23.024Z",
+        "updated_at": "2023-08-04T02:34:36.967Z",
+        "condition": 0.8849187104497105,
+        "year": true,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "ccb876cc-900f-4f26-ad58-4d0c01b3bf0d",
+        "created_at": "2023-08-03T20:41:28.168Z",
+        "updated_at": "2023-08-04T03:34:52.019Z",
+        "condition": 0.9665065153967589,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "1af6b2c1-1acb-45ad-bd5a-209f23ee62f8",
+        "created_at": "2023-08-04T04:29:23.718Z",
+        "updated_at": "2023-08-04T01:47:46.194Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking available",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 10492
+      },
+      {
+        "id": "03c48180-2f31-406c-8dd8-7ddfbef212f5",
+        "created_at": "2023-08-03T21:25:34.729Z",
+        "updated_at": "2023-08-03T06:23:20.851Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces",
+        "feedback": "Insufficient parking spaces",
+        "amount": 77585
+      },
+      {
+        "id": "4cbbbdc3-4a1c-4056-ab96-91e18c6724b0",
+        "created_at": "2023-08-03T15:05:20.335Z",
+        "updated_at": "2023-08-03T21:58:28.564Z",
+        "parking": "Street Parking C",
+        "note": "Free parking for customers",
+        "feedback": "Difficult to find parking spots",
+        "amount": 12773
+      },
+      {
+        "id": "d69319c8-88c1-40bd-bbf7-2bcb51e80082",
+        "created_at": "2023-08-03T17:35:16.194Z",
+        "updated_at": "2023-08-03T11:04:11.208Z",
+        "parking": "Underground Parking D",
+        "note": "Parking fee required",
+        "feedback": "Excellent parking service",
+        "amount": 60675
+      },
+      {
+        "id": "1c3476f9-f6ac-4315-8330-7e253b9e31ef",
+        "created_at": "2023-08-03T08:35:16.154Z",
+        "updated_at": "2023-08-03T19:31:33.797Z",
+        "parking": "Open Parking E",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking lot needs improvement",
+        "amount": 21759
+      }
+    ],
+    "booking": [
+      {
+        "id": "6a8c4cfb-d25a-413f-a3c6-1de85ec81256",
+        "date": "2023-08-03T19:32:38.887Z",
+        "time": "2023-08-03T17:11:53.604Z",
+        "created_at": "2023-08-03T14:09:42.632Z",
+        "updated_at": "2023-08-03T10:48:55.589Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9241dc1d-d3de-4aff-ae55-431556013b99",
+        "date": "2023-08-03T05:04:53.415Z",
+        "time": "2023-08-03T18:51:34.072Z",
+        "created_at": "2023-08-03T08:26:44.881Z",
+        "updated_at": "2023-08-03T13:08:50.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4987c717-8b82-4e66-9eaf-59c4fe2bbaad",
+        "date": "2023-08-04T04:14:28.003Z",
+        "time": "2023-08-03T17:21:59.065Z",
+        "created_at": "2023-08-04T04:19:49.567Z",
+        "updated_at": "2023-08-03T10:36:48.974Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69c23e59-1648-4f4f-ab42-48369981d89a",
+        "date": "2023-08-04T01:38:50.660Z",
+        "time": "2023-08-04T01:54:48.308Z",
+        "created_at": "2023-08-03T23:15:56.123Z",
+        "updated_at": "2023-08-03T23:24:55.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4b855aa-1017-4e8b-8edc-2281e32ef85e",
+        "date": "2023-08-03T14:14:22.339Z",
+        "time": "2023-08-03T22:45:53.075Z",
+        "created_at": "2023-08-04T03:54:35.754Z",
+        "updated_at": "2023-08-03T10:44:49.152Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "c24905f0-5823-4326-b717-8d4c53704d81",
+        "created_at": "2023-08-03T17:02:26.026Z",
+        "updated_at": "2023-08-03T14:56:26.729Z",
+        "condition": 0.17200277978554368,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "c150301f-0bed-4883-a4cb-70e01b80cde4",
+        "created_at": "2023-08-03T15:47:20.879Z",
+        "updated_at": "2023-08-03T18:25:16.529Z",
+        "condition": 0.04458682774566114,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "0178b1ad-ec43-4954-8e07-45eefab66409",
+        "created_at": "2023-08-03T17:43:45.157Z",
+        "updated_at": "2023-08-03T19:33:38.217Z",
+        "condition": 0.6347989346832037,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "f75a2cb6-c190-46e6-9620-ed3326def9de",
+        "created_at": "2023-08-03T06:52:47.111Z",
+        "updated_at": "2023-08-03T05:42:21.326Z",
+        "condition": 0.5774455072823912,
+        "year": true,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "bd5c54e3-7021-4306-81ab-05dd6d02a8c5",
+        "created_at": "2023-08-04T02:32:04.210Z",
+        "updated_at": "2023-08-03T08:34:33.324Z",
+        "condition": 0.9673046080861241,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "544363d2-a45f-4cc5-9c30-07ef7ee6b1a9",
+        "created_at": "2023-08-03T12:26:49.912Z",
+        "updated_at": "2023-08-03T15:48:04.985Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking available",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 6659
+      },
+      {
+        "id": "09d9eb79-1713-4ad1-8188-2e90d0fbc586",
+        "created_at": "2023-08-03T17:18:43.112Z",
+        "updated_at": "2023-08-03T22:04:07.209Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces",
+        "feedback": "Insufficient parking spaces",
+        "amount": 57790
+      },
+      {
+        "id": "47eb7257-9978-4e26-819f-7856a00af587",
+        "created_at": "2023-08-03T15:01:14.154Z",
+        "updated_at": "2023-08-03T05:00:46.268Z",
+        "parking": "Street Parking C",
+        "note": "Free parking for customers",
+        "feedback": "Difficult to find parking spots",
+        "amount": 61737
+      },
+      {
+        "id": "462ea44b-0338-43dc-8925-f5fd1f0ee833",
+        "created_at": "2023-08-04T03:09:00.363Z",
+        "updated_at": "2023-08-03T13:29:45.705Z",
+        "parking": "Underground Parking D",
+        "note": "Parking fee required",
+        "feedback": "Excellent parking service",
+        "amount": 87313
+      },
+      {
+        "id": "d4e1272f-8d69-4451-955e-9ebc32678c81",
+        "created_at": "2023-08-03T04:55:28.770Z",
+        "updated_at": "2023-08-04T03:24:59.208Z",
+        "parking": "Open Parking E",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking lot needs improvement",
+        "amount": 78215
+      }
+    ],
+    "booking": [
+      {
+        "id": "c607bc6b-820e-41d4-a7f1-92c2cb2b7b74",
+        "date": "2023-08-03T05:49:56.813Z",
+        "time": "2023-08-03T05:57:41.833Z",
+        "created_at": "2023-08-03T18:18:25.139Z",
+        "updated_at": "2023-08-03T15:40:02.449Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f17c1743-ebf9-4910-91fc-8a5a56aba083",
+        "date": "2023-08-03T16:53:10.975Z",
+        "time": "2023-08-03T22:59:55.697Z",
+        "created_at": "2023-08-03T09:04:26.675Z",
+        "updated_at": "2023-08-03T15:44:45.670Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79e8714c-e846-4cd0-adde-49d7f7f66cf0",
+        "date": "2023-08-03T11:38:02.521Z",
+        "time": "2023-08-03T14:26:52.007Z",
+        "created_at": "2023-08-03T11:12:45.239Z",
+        "updated_at": "2023-08-03T07:19:58.019Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d650c557-97b8-489c-861f-905ff8eeaa63",
+        "date": "2023-08-03T18:57:25.739Z",
+        "time": "2023-08-03T05:10:47.940Z",
+        "created_at": "2023-08-04T00:45:49.767Z",
+        "updated_at": "2023-08-03T05:04:17.578Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ff45346-32d5-4ec0-b284-ad8e166d447f",
+        "date": "2023-08-03T07:21:45.402Z",
+        "time": "2023-08-03T18:57:27.533Z",
+        "created_at": "2023-08-03T16:28:05.783Z",
+        "updated_at": "2023-08-03T17:21:03.686Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "8f968ee5-2bc2-4d41-a044-16de58969da4",
+        "created_at": "2023-08-03T20:39:33.170Z",
+        "updated_at": "2023-08-03T22:13:34.979Z",
+        "condition": 0.5887196746189147,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "79c248cb-c2d7-4491-a543-9ece9d0e1325",
+        "created_at": "2023-08-03T13:18:13.388Z",
+        "updated_at": "2023-08-03T19:25:39.831Z",
+        "condition": 0.7969130799174309,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "bb94e773-b798-4db6-8383-1ba79cd352f8",
+        "created_at": "2023-08-03T14:30:21.775Z",
+        "updated_at": "2023-08-03T20:51:46.252Z",
+        "condition": 0.25559064908884466,
+        "year": false,
+        "advisor": "Michael"
+      },
+      {
+        "id": "6ad1bec5-0417-48f0-bcf1-d719eac3ae7b",
+        "created_at": "2023-08-04T01:02:41.370Z",
+        "updated_at": "2023-08-04T01:11:19.442Z",
+        "condition": 0.613390542101115,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "50fd1206-7a11-4abb-8f84-9c20d10d645b",
+        "created_at": "2023-08-03T13:04:41.904Z",
+        "updated_at": "2023-08-03T11:54:00.483Z",
+        "condition": 0.4092233486007899,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "f840d409-6ad0-4c60-9fc1-365d4f438478",
+        "created_at": "2023-08-03T15:05:03.098Z",
+        "updated_at": "2023-08-03T05:33:27.878Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking for employees",
+        "feedback": "Great parking facilities",
+        "amount": 94417
+      },
+      {
+        "id": "c0533987-89a7-4581-86c5-00f559e6def0",
+        "created_at": "2023-08-03T13:48:47.011Z",
+        "updated_at": "2023-08-03T22:32:00.460Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces available",
+        "feedback": "Parking spaces are too narrow",
+        "amount": 18495
+      },
+      {
+        "id": "a057a9a7-539a-46cf-a10b-c9b26e673f94",
+        "created_at": "2023-08-03T18:39:03.455Z",
+        "updated_at": "2023-08-04T03:27:27.577Z",
+        "parking": "Street Parking C",
+        "note": "Parking fees apply",
+        "feedback": "Need more parking spots",
+        "amount": 47698
+      },
+      {
+        "id": "5ba7b1d2-839c-4c77-87cd-5f8b7a04e57d",
+        "created_at": "2023-08-04T00:25:37.358Z",
+        "updated_at": "2023-08-03T20:57:37.301Z",
+        "parking": "Underground Parking D",
+        "note": "Accessible parking for disabled",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 9453
+      },
+      {
+        "id": "52948bbc-e817-46c4-8599-85104fd9660c",
+        "created_at": "2023-08-03T10:31:35.087Z",
+        "updated_at": "2023-08-03T20:05:37.767Z",
+        "parking": "Open Parking E",
+        "note": "Parking is monitored by security",
+        "feedback": "Difficult to find parking during peak hours",
+        "amount": 11870
+      }
+    ],
+    "booking": [
+      {
+        "id": "ab3b9523-41e9-45fe-ac24-c2b53d27c39e",
+        "date": "2023-08-03T19:52:06.128Z",
+        "time": "2023-08-03T18:28:09.375Z",
+        "created_at": "2023-08-03T12:49:18.030Z",
+        "updated_at": "2023-08-04T02:51:24.881Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9348c1b-e910-4e62-9bab-e92d09489cea",
+        "date": "2023-08-03T20:33:41.057Z",
+        "time": "2023-08-03T17:11:26.871Z",
+        "created_at": "2023-08-03T12:13:13.683Z",
+        "updated_at": "2023-08-03T23:09:41.215Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18a09223-2d27-4637-a639-5678c9088647",
+        "date": "2023-08-03T09:13:47.914Z",
+        "time": "2023-08-03T23:28:34.088Z",
+        "created_at": "2023-08-03T09:26:07.084Z",
+        "updated_at": "2023-08-03T08:10:17.197Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a9d3ec0-8034-4970-b9f3-1d34e58932c7",
+        "date": "2023-08-03T16:21:12.191Z",
+        "time": "2023-08-04T01:54:55.729Z",
+        "created_at": "2023-08-03T10:07:05.536Z",
+        "updated_at": "2023-08-03T23:58:01.724Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3a1a69d-7d5e-4900-b8a5-082eca3f5fd6",
+        "date": "2023-08-03T04:56:12.679Z",
+        "time": "2023-08-03T10:47:04.067Z",
+        "created_at": "2023-08-03T08:46:02.528Z",
+        "updated_at": "2023-08-04T03:43:04.871Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "655f571d-6e8d-41f5-a602-5e94bfbf0286",
+        "created_at": "2023-08-03T16:09:42.461Z",
+        "updated_at": "2023-08-03T06:48:47.328Z",
+        "condition": 0.7215994317084551,
+        "year": false,
+        "advisor": "John"
+      },
+      {
+        "id": "0c0baf52-02fd-4d2d-9bf5-47cbc4e6c64a",
+        "created_at": "2023-08-03T05:09:02.663Z",
+        "updated_at": "2023-08-03T07:15:05.765Z",
+        "condition": 0.6915700370445848,
+        "year": false,
+        "advisor": "Jane"
+      },
+      {
+        "id": "705adc8c-d110-4e5c-ac4f-bc86fa0e4efb",
+        "created_at": "2023-08-04T04:23:06.612Z",
+        "updated_at": "2023-08-03T19:57:01.115Z",
+        "condition": 0.01985588762909174,
+        "year": false,
+        "advisor": "Michael"
+      },
+      {
+        "id": "ff01333a-d529-4a78-8de3-d46c74498a91",
+        "created_at": "2023-08-03T10:30:54.343Z",
+        "updated_at": "2023-08-03T08:17:09.669Z",
+        "condition": 0.40105059230700135,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "16b668d5-6747-4bbd-8584-caddfe21c004",
+        "created_at": "2023-08-04T04:15:28.916Z",
+        "updated_at": "2023-08-04T00:42:14.530Z",
+        "condition": 0.20125858229584992,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "5696f3bd-9fc1-4870-a30c-bddd66a15161",
+        "created_at": "2023-08-03T20:55:52.771Z",
+        "updated_at": "2023-08-04T00:26:27.529Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking available",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 98823
+      },
+      {
+        "id": "bf5d8c25-733c-44a6-a394-1c795c687948",
+        "created_at": "2023-08-03T18:10:26.332Z",
+        "updated_at": "2023-08-03T23:10:28.261Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces",
+        "feedback": "Insufficient parking spaces",
+        "amount": 41159
+      },
+      {
+        "id": "0e9ba2da-c8c2-49d1-88bb-d6f95ec0bafc",
+        "created_at": "2023-08-03T07:45:34.918Z",
+        "updated_at": "2023-08-03T06:48:36.803Z",
+        "parking": "Street Parking C",
+        "note": "Free parking for customers",
+        "feedback": "Difficult to find parking spots",
+        "amount": 28873
+      },
+      {
+        "id": "d8e7a592-df60-4aea-90ca-13a04efcbb96",
+        "created_at": "2023-08-04T03:41:24.196Z",
+        "updated_at": "2023-08-03T08:42:14.717Z",
+        "parking": "Underground Parking D",
+        "note": "Parking fee required",
+        "feedback": "Excellent parking service",
+        "amount": 98893
+      },
+      {
+        "id": "97b7893c-6085-4b31-899a-6f9ca3702240",
+        "created_at": "2023-08-03T12:26:22.923Z",
+        "updated_at": "2023-08-03T21:29:10.497Z",
+        "parking": "Open Parking E",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking lot needs improvement",
+        "amount": 56937
+      }
+    ],
+    "booking": [
+      {
+        "id": "c1d75fac-25ce-48c0-b140-f0255f5942db",
+        "date": "2023-08-04T02:22:23.728Z",
+        "time": "2023-08-03T18:42:11.227Z",
+        "created_at": "2023-08-03T13:14:27.067Z",
+        "updated_at": "2023-08-04T03:58:24.589Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbef59c0-bc5e-4224-bb22-7069d9ad42d4",
+        "date": "2023-08-03T22:35:45.495Z",
+        "time": "2023-08-03T17:08:52.801Z",
+        "created_at": "2023-08-04T01:39:56.199Z",
+        "updated_at": "2023-08-03T05:05:45.342Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6194970-d902-412b-b77c-8ab486175029",
+        "date": "2023-08-03T14:57:49.994Z",
+        "time": "2023-08-03T23:22:09.470Z",
+        "created_at": "2023-08-03T09:06:49.063Z",
+        "updated_at": "2023-08-03T05:02:29.921Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4230a7a3-0d4c-4063-8865-9e03066112cd",
+        "date": "2023-08-03T10:19:18.373Z",
+        "time": "2023-08-03T16:04:29.857Z",
+        "created_at": "2023-08-03T07:57:30.692Z",
+        "updated_at": "2023-08-04T00:58:00.808Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39b263d6-a08a-46fb-89db-465d2bd7ca9f",
+        "date": "2023-08-03T14:25:55.285Z",
+        "time": "2023-08-03T12:09:01.706Z",
+        "created_at": "2023-08-04T00:16:02.847Z",
+        "updated_at": "2023-08-03T13:36:21.546Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car_review": [
+      {
+        "id": "2182d7eb-c58e-4bb5-ab02-32bc1000ff89",
+        "created_at": "2023-08-03T13:05:14.508Z",
+        "updated_at": "2023-08-04T04:07:09.619Z",
+        "condition": 0.2468229930382222,
+        "year": true,
+        "advisor": "John"
+      },
+      {
+        "id": "815889c9-57dd-43e8-82bd-22550b93c093",
+        "created_at": "2023-08-03T22:11:07.482Z",
+        "updated_at": "2023-08-04T03:12:38.557Z",
+        "condition": 0.4390531212557107,
+        "year": true,
+        "advisor": "Jane"
+      },
+      {
+        "id": "0df50719-6106-41cd-bba3-e8ce3a865859",
+        "created_at": "2023-08-04T04:08:15.428Z",
+        "updated_at": "2023-08-04T00:57:12.289Z",
+        "condition": 0.6492220787331462,
+        "year": true,
+        "advisor": "Michael"
+      },
+      {
+        "id": "9b347acc-e45e-48fb-9855-5a7c213d95b4",
+        "created_at": "2023-08-04T00:53:21.709Z",
+        "updated_at": "2023-08-03T22:44:08.906Z",
+        "condition": 0.3595884668175131,
+        "year": false,
+        "advisor": "Sarah"
+      },
+      {
+        "id": "ffee8ab2-aee4-4846-a42a-2036548ac651",
+        "created_at": "2023-08-03T18:41:17.427Z",
+        "updated_at": "2023-08-03T19:38:44.467Z",
+        "condition": 0.43822808330878615,
+        "year": false,
+        "advisor": "David"
+      }
+    ],
+    "car_park": [
+      {
+        "id": "ee2b1781-6096-424b-abc9-133984252242",
+        "created_at": "2023-08-04T02:20:50.567Z",
+        "updated_at": "2023-08-03T17:50:02.019Z",
+        "parking": "Parking Lot A",
+        "note": "Reserved parking available",
+        "feedback": "Clean and well-maintained parking area",
+        "amount": 42059
+      },
+      {
+        "id": "cee20219-1ebe-42fa-a829-73435893ca76",
+        "created_at": "2023-08-03T17:25:07.924Z",
+        "updated_at": "2023-08-03T21:45:29.414Z",
+        "parking": "Parking Garage B",
+        "note": "Limited parking spaces",
+        "feedback": "Insufficient parking spaces",
+        "amount": 55911
+      },
+      {
+        "id": "a55c2918-31d2-4ef2-8ba8-cffdcef03b04",
+        "created_at": "2023-08-03T22:19:01.777Z",
+        "updated_at": "2023-08-03T17:17:09.018Z",
+        "parking": "Street Parking C",
+        "note": "Free parking for customers",
+        "feedback": "Difficult to find parking spots",
+        "amount": 86575
+      },
+      {
+        "id": "47ab594e-af71-4c0d-8d90-23bf2d36b70c",
+        "created_at": "2023-08-03T18:10:58.118Z",
+        "updated_at": "2023-08-03T09:01:10.085Z",
+        "parking": "Underground Parking D",
+        "note": "Parking fee required",
+        "feedback": "Excellent parking service",
+        "amount": 74108
+      },
+      {
+        "id": "335df772-776d-46eb-8b32-f24dd14516f7",
+        "created_at": "2023-08-03T11:39:18.205Z",
+        "updated_at": "2023-08-03T15:16:21.663Z",
+        "parking": "Open Parking E",
+        "note": "Accessible parking for disabled",
+        "feedback": "Parking lot needs improvement",
+        "amount": 52013
+      }
+    ],
+    "booking": [
+      {
+        "id": "73849baa-b8c2-4303-90dd-ee7dc005a244",
+        "date": "2023-08-04T01:44:57.736Z",
+        "time": "2023-08-03T22:36:09.168Z",
+        "created_at": "2023-08-03T05:59:50.139Z",
+        "updated_at": "2023-08-03T08:49:10.531Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62fdda2d-444c-4632-b017-58978ae9fa0c",
+        "date": "2023-08-04T04:28:12.453Z",
+        "time": "2023-08-03T17:42:24.169Z",
+        "created_at": "2023-08-04T04:14:33.558Z",
+        "updated_at": "2023-08-03T09:53:17.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6336364b-5c4e-4879-b64f-f5081bb37ffc",
+        "date": "2023-08-03T21:05:27.432Z",
+        "time": "2023-08-03T15:17:04.072Z",
+        "created_at": "2023-08-03T08:33:19.172Z",
+        "updated_at": "2023-08-03T10:25:58.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bac4a68c-7075-4d4f-a182-d74fbae1b7f9",
+        "date": "2023-08-03T05:11:12.099Z",
+        "time": "2023-08-04T00:58:02.966Z",
+        "created_at": "2023-08-04T01:31:24.721Z",
+        "updated_at": "2023-08-03T22:43:13.586Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "872dff5b-cd6d-4b24-8610-ad92071fc1ff",
+        "date": "2023-08-03T10:26:20.205Z",
+        "time": "2023-08-03T17:28:49.541Z",
+        "created_at": "2023-08-04T03:49:19.399Z",
+        "updated_at": "2023-08-03T13:43:39.927Z",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
